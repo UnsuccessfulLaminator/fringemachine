@@ -1,0 +1,12 @@
+{
+  "camera_name": null,
+  "framerate": 30.0,
+  "exposure_micros": 5000.0,
+  "gain_db": 10.0,
+  "gamma": 0.7,
+  "roi": null,
+  "trigger_line": "Line3",
+
+  "serial_device": "/dev/ttyUSB0",
+  "serial_baud": 9600
+}

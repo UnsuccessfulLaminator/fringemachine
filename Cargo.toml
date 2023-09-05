@@ -1,0 +1,15 @@
+[package]
+name = "fringemachine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.73"
+clap = { version = "4.4.2", features = ["derive"] }
+ndarray = { version = "0.15.6", features = ["rayon"] }
+ndrustfft = "0.4.1"
+serialport = "4.2.2"
+vimba = { version = "0.1.0", path = "../vimba" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+itertools = "0.11.0"
